@@ -6,9 +6,11 @@ function takeANumber (katzDeliLine,Name) {
 }
 
 function nowServing (katzDeliLine) {
-  if (katzDeliLine.length > 0) {
+  while (katzDeliLine.length > 0) {
     return katzDeliLine[0];
       katzDeliLine.pop(0);
+  } if (katzDeliLine.length=0){
+    return "There is nobody waiting to be served."
   }
 }
 takeANumber(katzDeliLine, "Ada");
