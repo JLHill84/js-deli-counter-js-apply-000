@@ -18,6 +18,8 @@ function nowServing (katzDeliLine) {
 }
 */
 
+function currentLine
+
 takeANumber(katzDeliLine, "Ada");
 takeANumber(katzDeliLine, "Grace");
 takeANumber(katzDeliLine, "Kent");
