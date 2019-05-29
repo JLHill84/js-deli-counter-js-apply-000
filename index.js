@@ -6,10 +6,10 @@ function takeANumber (katzDeliLine,Name) {
 }
 
 function nowServing (katzDeliLine) {
-  if katzDeliLine.length > 0 {
+  if (katzDeliLine.length > 0) {
     return katzDeliLine[0];
       katzDeliLine.pop(0);
-  }
+)  }
   }
 takeANumber(katzDeliLine, "Ada");
 takeANumber(katzDeliLine, "Grace");
