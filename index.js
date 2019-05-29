@@ -1,4 +1,4 @@
-function currentLine(line) {
+function currentLine(katzDeliLine) {
   if (!line.length) {
     return "The line is currently empty.";
   }
@@ -12,7 +12,7 @@ function currentLine(line) {
   return `The line is currently: ${numbersAndNames.join(', ')}`;
 }
 
-function nowServing(line) {
+function nowServing(katzDeliLine) {
   if (!line.length) {
     return "There is nobody waiting to be served!";
   }
