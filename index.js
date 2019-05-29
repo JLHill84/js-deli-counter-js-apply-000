@@ -10,6 +10,7 @@ function nowServing (katzDeliLine) {
     return katzDeliLine[0];
       katzDeliLine.pop(0)
   }
+  }
 takeANumber(katzDeliLine, "Ada");
 takeANumber(katzDeliLine, "Grace");
 takeANumber(katzDeliLine, "Kent");
