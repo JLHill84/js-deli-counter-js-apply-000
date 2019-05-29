@@ -4,5 +4,5 @@ function takeANumber (katzDeliLine,Name) {
   return katzDeliLine.length+1;
 }
 takeANumber(katzDeliLine, "Ada");
-takeANumber(katzDeliLine, "Grace"); //
+takeANumber(katzDeliLine, "Grace");
 takeANumber(katzDeliLine, "Kent");
